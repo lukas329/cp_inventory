@@ -82,7 +82,11 @@ class CarController extends Controller
             'registration_number' => 'required_if:is_registered,true',
         ]);
 
-        $car->update($request->all());
+        // Convert checkbox input to boolean
+        $data = $request->all();
+        $data['is_registered'] = $request->has('is_registered') ? 1 : 0;
+
+        $car->update($data);
 
         return redirect()->route('cars.index');
     }

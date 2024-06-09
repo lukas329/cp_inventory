@@ -24,16 +24,6 @@
                 </div>
             </div>
         </form>
-        <div class="row">
-            <div class="col-md-6">
-                <label for="primary">A Primary Button</label>
-            </div>
-            <div class="col-md-6">
-                <button name="primary" type="button" class="btn btn-primary btn-block ">
-                    Primary Button
-                </button>
-            </div>
-        </div>
         <a href="{{ route('parts.create') }}" class="btn btn-primary mb-2">Add Part</a>
         <table class="table table-striped">
             <thead>

@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Car Parts Inventory</title>
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+
 </head>
 <body>
 <div id="app">
     @yield('content')
 </div>
-<script src="{{ mix('js/app.js') }}"></script>
+<script src="/js/bootstrap.js"></script>
+
 </body>
 </html>
