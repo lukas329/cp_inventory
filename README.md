@@ -1,3 +1,8 @@
+
+<img width="1328" alt="Snímka obrazovky 2024-06-09 o 13 47 03" src="https://github.com/lukas329/cp_inventory/assets/48260766/d3bb278c-8b06-418c-80da-75240999e2cc">
+<img width="1329" alt="Snímka obrazovky 2024-06-09 o 13 47 14" src="https://github.com/lukas329/cp_inventory/assets/48260766/1a03f625-7902-45cb-9682-2901e7809793">
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
