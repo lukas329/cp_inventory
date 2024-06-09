@@ -36,7 +36,7 @@ class CarController extends Controller
      */
     public function create()
     {
-        return view('create');
+        return view('cars.create');
     }
 
     /**
@@ -46,8 +46,10 @@ class CarController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'registration_number' => 'required_if:is_registered,true',
+            'registration_number' => 'required_if:is_registered,on',
         ]);
+
+        // Convert checkbox input to boolean
         $data = $request->all();
         $data['is_registered'] = $request->has('is_registered') ? 1 : 0;
 
@@ -79,7 +81,7 @@ class CarController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'registration_number' => 'required_if:is_registered,true',
+            'registration_number' => 'required_if:is_registered,on',
         ]);
 
         // Convert checkbox input to boolean
